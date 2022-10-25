@@ -30,11 +30,13 @@ body {
   }
 
   @media screen and (min-width: 1280px) {
+    padding: 0 80px;
     width: 1280px;
     //content 1200px;
   }
 
   @media screen and (min-width: 1600px) {
+    padding: 0 100px;
     width: 1600px;
     //content 1520px;
   }

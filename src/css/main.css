@@ -169,24 +169,29 @@ body {
 }
 @media screen and (min-width: 1280px) {
   .container {
+    padding: 0 80px;
     width: 1280px;
   }
 }
 @media screen and (min-width: 1600px) {
   .container {
+    padding: 0 100px;
     width: 1600px;
   }
 }
 
 .headerWrap {
   position: relative;
-  padding-top: 15px;
+  padding-top: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .headerLogo {
@@ -196,14 +201,36 @@ body {
   width: 25%;
   max-width: 242px;
 }
+@media screen and (min-width: 768px) {
+  .headerLogo {
+    position: relative;
+    margin-right: 20px;
+  }
+}
 
 .headerContent {
   width: 75%;
 }
 
-.headerContactsWrap {
+.headerContactsWrap1 {
   margin-bottom: 5px;
   text-align: end;
+}
+@media screen and (min-width: 768px) {
+  .headerContactsWrap1 {
+    display: none;
+  }
+}
+
+.headerContactsWrap2 {
+  display: none;
+  margin-bottom: 5px;
+  text-align: end;
+}
+@media screen and (min-width: 768px) {
+  .headerContactsWrap2 {
+    display: block;
+  }
 }
 
 .headerContacts {
@@ -213,6 +240,11 @@ body {
   font-size: calc( 0.00859375 * 100vw + 1.25px );
   line-height: calc( 0.01171875 * 100vw + 1.25px );
   color: #000000;
+}
+@media screen and (min-width: 768px) {
+  .headerContacts {
+    color: #ffffff;
+  }
 }
 
 .navMenuList {
@@ -228,6 +260,26 @@ body {
   width: 100%;
   background-color: rgba(34, 66, 115, 0.77);
 }
+@media screen and (min-width: 768px) {
+  .navMenuList {
+    padding: 0px 10px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .navMenuList {
+    padding: 0px 10px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .navMenuList {
+    padding: 0px 10px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .navMenuList {
+    padding: 0px 35px;
+  }
+}
 
 .navMenuText {
   padding: 10px 5px;
@@ -237,6 +289,26 @@ body {
   line-height: calc( 0.01171875 * 100vw + 1.25px );
   text-align: center;
   color: #ffffff;
+}
+@media screen and (min-width: 768px) {
+  .navMenuText {
+    padding: 15px 5px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .navMenuText {
+    padding: 25px 5px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .navMenuText {
+    padding: 30px 5px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .navMenuText {
+    padding: 35px 5px;
+  }
 }
 
 .recoverySection {
@@ -254,10 +326,27 @@ body {
 }
 
 .recoveryWrap {
-  padding-top: 10px;
-  padding-right: 10px;
-  padding-left: 5px;
-  padding-bottom: 20px;
+  padding: 10px 10px 20px 5px;
+}
+@media screen and (min-width: 768px) {
+  .recoveryWrap {
+    padding: 15px 0;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .recoveryWrap {
+    padding: 20px 0;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .recoveryWrap {
+    padding: 25px 0;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .recoveryWrap {
+    padding: 30px 0;
+  }
 }
 
 .recoveryTitle {
@@ -276,6 +365,9 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .recoveryText {
@@ -295,6 +387,26 @@ body {
 
 .recoveryText:first-of-type {
   margin-bottom: 10px;
+}
+@media screen and (min-width: 768px) {
+  .recoveryText:first-of-type {
+    margin-bottom: 15px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .recoveryText:first-of-type {
+    margin-bottom: 20px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .recoveryText:first-of-type {
+    margin-bottom: 30px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .recoveryText:first-of-type {
+    margin-bottom: 40px;
+  }
 }
 
 .recoveryImagesWrap {
@@ -319,6 +431,13 @@ body {
   -webkit-transform: translateY(-50%) rotate(-10deg);
           transform: translateY(-50%) rotate(-10deg);
 }
+@media screen and (min-width: 768px) {
+  .recoveryImageLeft {
+    left: 0;
+    -webkit-transform: translateY(-50%) rotate(0);
+            transform: translateY(-50%) rotate(0);
+  }
+}
 
 .recoveryImageRight {
   width: 50%;
@@ -327,6 +446,26 @@ body {
 .crmSection {
   position: relative;
   padding: 10px 0;
+}
+@media screen and (min-width: 768px) {
+  .crmSection {
+    padding-bottom: 15px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .crmSection {
+    padding-bottom: 20px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .crmSection {
+    padding-bottom: 25px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .crmSection {
+    padding-bottom: 30px;
+  }
 }
 
 .crmSection::after {
@@ -352,11 +491,22 @@ body {
   color: #ffffff;
   background-color: rgba(34, 66, 115, 0.77);
 }
+@media screen and (min-width: 768px) {
+  .crmTitle {
+    margin-left: auto;
+    margin-right: 10px;
+    padding: 0 5px;
+    width: calc(50% - 20px);
+  }
+}
 
 .crmContent {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -369,6 +519,7 @@ body {
 
 .crmScriptWrap {
   width: 100%;
+  max-width: 600px;
 }
 
 .b24-form-wrapper {
@@ -376,6 +527,11 @@ body {
   max-width: unset !important;
   width: 100% !important;
   padding: 5px !important;
+}
+@media screen and (min-width: 768px) {
+  .b24-form-wrapper {
+    padding: 15px !important;
+  }
 }
 
 .b24-form,
@@ -401,16 +557,56 @@ body {
 }
 
 .b24-form-field {
-  margin: 0 !important;
+  margin-bottom: 5px !important;
+}
+@media screen and (min-width: 768px) {
+  .b24-form-field {
+    margin-bottom: 10px !important;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .b24-form-field {
+    margin-bottom: 15px !important;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .b24-form-field {
+    margin-bottom: 20px !important;
+  }
 }
 
 .b24-form-control-container {
   margin: 0 0 5px 0 !important;
 }
+@media screen and (min-width: 768px) {
+  .b24-form-control-container {
+    margin: 0 0 10px 0 !important;
+  }
+}
 
 .b24-form-control {
   padding: 5px !important;
   height: auto !important;
+}
+@media screen and (min-width: 768px) {
+  .b24-form-control {
+    padding: 10px !important;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .b24-form-control {
+    padding: 12px !important;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .b24-form-control {
+    padding: 15px !important;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .b24-form-control {
+    padding: 20px !important;
+  }
 }
 
 .b24-form-control-label {
@@ -431,6 +627,36 @@ input[type=checkbox] {
   width: 5px !important;
   height: 5px !important;
 }
+@media screen and (min-width: 480px) {
+  input[type=checkbox] {
+    width: 8px !important;
+    height: 8px !important;
+  }
+}
+@media screen and (min-width: 768px) {
+  input[type=checkbox] {
+    width: 10px !important;
+    height: 10px !important;
+  }
+}
+@media screen and (min-width: 1024px) {
+  input[type=checkbox] {
+    width: 12px !important;
+    height: 12px !important;
+  }
+}
+@media screen and (min-width: 1280px) {
+  input[type=checkbox] {
+    width: 14px !important;
+    height: 14px !important;
+  }
+}
+@media screen and (min-width: 1600px) {
+  input[type=checkbox] {
+    width: 18px !important;
+    height: 18px !important;
+  }
+}
 
 .b24-form-btn {
   padding: 5px !important;
@@ -442,6 +668,26 @@ input[type=checkbox] {
   font-size: calc( 0.01171875 * 100vw + 6.25px ) !important;
   line-height: calc( 0.015625 * 100vw + 7px ) !important;
 }
+@media screen and (min-width: 768px) {
+  .b24-form-btn {
+    padding: 10px !important;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .b24-form-btn {
+    padding: 12px !important;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .b24-form-btn {
+    padding: 15px !important;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .b24-form-btn {
+    padding: 20px !important;
+  }
+}
 
 .b24-form-sign {
   display: none !important;
@@ -450,6 +696,26 @@ input[type=checkbox] {
 .cardsSection {
   position: relative;
   padding: 10px 0;
+}
+@media screen and (min-width: 768px) {
+  .cardsSection {
+    padding: 15px 0;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .cardsSection {
+    padding: 20px 0;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .cardsSection {
+    padding: 30px 0;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .cardsSection {
+    padding: 40px 0;
+  }
 }
 
 .cardsSection::after {
@@ -470,6 +736,26 @@ input[type=checkbox] {
   line-height: calc( 0.0171875 * 100vw + 4.5px );
   text-align: center;
 }
+@media screen and (min-width: 768px) {
+  .cardsTitle {
+    margin-bottom: 15px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .cardsTitle {
+    margin-bottom: 20px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .cardsTitle {
+    margin-bottom: 30px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .cardsTitle {
+    margin-bottom: 40px;
+  }
+}
 
 .cardsTextTop {
   margin-bottom: 10px;
@@ -484,6 +770,26 @@ input[type=checkbox] {
   -webkit-box-shadow: 7px 9px 4px 5px rgba(34, 64, 140, 0.15);
           box-shadow: 7px 9px 4px 5px rgba(34, 64, 140, 0.15);
 }
+@media screen and (min-width: 768px) {
+  .cardsTextTop {
+    margin-bottom: 25px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .cardsTextTop {
+    margin-bottom: 40px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .cardsTextTop {
+    margin-bottom: 50px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .cardsTextTop {
+    margin-bottom: 70px;
+  }
+}
 
 .cardsTextMidle {
   margin-bottom: 20px;
@@ -494,6 +800,16 @@ input[type=checkbox] {
   line-height: calc( 0.0140625 * 100vw + 4.5px );
   text-align: center;
   color: #000000;
+}
+@media screen and (min-width: 1024px) {
+  .cardsTextMidle {
+    margin-bottom: 25px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .cardsTextMidle {
+    margin-bottom: 30px;
+  }
 }
 
 .cardsTextBottom {
@@ -543,42 +859,194 @@ input[type=checkbox] {
 
 .cardsImage1 {
   width: 24px;
-  height: 25px;
+}
+@media screen and (min-width: 768px) {
+  .cardsImage1 {
+    width: 44px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .cardsImage1 {
+    width: 64px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .cardsImage1 {
+    width: 83px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .cardsImage1 {
+    width: 102px;
+  }
 }
 
 .cardsImage2 {
   width: 24px;
-  height: 28px;
+}
+@media screen and (min-width: 768px) {
+  .cardsImage2 {
+    width: 42px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .cardsImage2 {
+    width: 60px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .cardsImage2 {
+    width: 78px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .cardsImage2 {
+    width: 96px;
+  }
 }
 
 .cardsImage3 {
   width: 28px;
-  height: 30px;
+}
+@media screen and (min-width: 768px) {
+  .cardsImage3 {
+    width: 56px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .cardsImage3 {
+    width: 84px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .cardsImage3 {
+    width: 112px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .cardsImage3 {
+    width: 139px;
+  }
 }
 
 .cardsImage4 {
   width: 32px;
-  height: 33px;
+}
+@media screen and (min-width: 768px) {
+  .cardsImage4 {
+    width: 68px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .cardsImage4 {
+    width: 104px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .cardsImage4 {
+    width: 139px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .cardsImage4 {
+    width: 174px;
+  }
 }
 
 .cardsImage5 {
   width: 36px;
-  height: 34px;
+}
+@media screen and (min-width: 768px) {
+  .cardsImage5 {
+    width: 64px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .cardsImage5 {
+    width: 92px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .cardsImage5 {
+    width: 120px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .cardsImage5 {
+    width: 149px;
+  }
 }
 
 .cardsImage6 {
   width: 30px;
-  height: 34px;
+}
+@media screen and (min-width: 768px) {
+  .cardsImage6 {
+    width: 46px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .cardsImage6 {
+    width: 62px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .cardsImage6 {
+    width: 78px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .cardsImage6 {
+    width: 111px;
+  }
 }
 
 .cardsImage7 {
   width: 37px;
-  height: 36px;
+}
+@media screen and (min-width: 768px) {
+  .cardsImage7 {
+    width: 69px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .cardsImage7 {
+    width: 101px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .cardsImage7 {
+    width: 132px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .cardsImage7 {
+    width: 166px;
+  }
 }
 
 .cardsImage8 {
   width: 31px;
-  height: 30px;
+}
+@media screen and (min-width: 768px) {
+  .cardsImage8 {
+    width: 61px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .cardsImage8 {
+    width: 91px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .cardsImage8 {
+    width: 121px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .cardsImage8 {
+    width: 150px;
+  }
 }
 
 .foreignSection {

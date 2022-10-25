@@ -13,10 +13,19 @@
 }
 
 .recoveryWrap {
-  padding-top: 10px;
-  padding-right: 10px;
-  padding-left: 5px;
-  padding-bottom: 20px;
+  padding: 10px 10px 20px 5px;
+  @media screen and (min-width: 768px){
+    padding: 15px 0;
+  }
+  @media screen and (min-width: 1024px){
+    padding: 20px 0;
+  }
+  @media screen and (min-width: 1280px){
+    padding: 25px 0;
+  }
+  @media screen and (min-width: 1600px){
+    padding: 30px 0;
+  }
 }
 
 .recoveryTitle {
@@ -33,6 +42,7 @@
 
 .recoveryContent {
   display: flex;
+  align-items: center;
 }
 
 .recoveryText {
@@ -51,6 +61,18 @@
 
 .recoveryText:first-of-type {
   margin-bottom: 10px;
+  @media screen and (min-width: 768px){
+    margin-bottom: 15px;
+  }
+  @media screen and (min-width: 1024px){
+    margin-bottom: 20px;
+  }
+  @media screen and (min-width: 1280px){
+    margin-bottom: 30px;
+  }
+  @media screen and (min-width: 1600px){
+    margin-bottom: 40px;
+  }
 }
 
 .recoveryImagesWrap {
@@ -68,6 +90,10 @@
   z-index: 5;
   width: 50%;
   transform: translateY(-50%) rotate(-10deg);
+  @media screen and (min-width: 768px){
+    left: 0;
+    transform: translateY(-50%) rotate(0);
+  }
 }
 
 .recoveryImageRight {

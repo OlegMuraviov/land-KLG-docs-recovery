@@ -1,8 +1,9 @@
 .headerWrap {
   position: relative;
-  padding-top: 15px;
+  padding-top: 10px;
   display: flex;
   justify-content: flex-end;
+  align-items: center;
 }
 
 .headerLogo {
@@ -11,15 +12,31 @@
   left: 0;
   width: 25%;
   max-width: 242px;
+  @media screen and (min-width: 768px){
+    position: relative;
+    margin-right: 20px;
+  }
 }
 
 .headerContent {
   width: 75%;
 }
 
-.headerContactsWrap {
+.headerContactsWrap1 {
   margin-bottom: 5px;
   text-align: end;
+  @media screen and (min-width: 768px){
+    display: none;
+  }
+}
+
+.headerContactsWrap2 {
+  display: none;
+  margin-bottom: 5px;
+  text-align: end;
+  @media screen and (min-width: 768px){
+    display: block;
+  }
 }
 
 .headerContacts {
@@ -29,7 +46,9 @@
   font-size: calcFluidFontSize(4, 15, 320, 1600);
   line-height: calcFluidLineHeight(5, 20, 320, 1600);
   color: $mainTextColor;
-  
+  @media screen and (min-width: 768px){
+    color: $additionalTextColor;
+  }
 }
 
 
@@ -39,8 +58,19 @@
   align-items: center;
   width: 100%;
   background-color: $brandTextColor;
+  @media screen and (min-width: 768px){
+    padding: 0px 10px;
+  }
+  @media screen and (min-width: 1024px){
+    padding: 0px 10px;
+  }
+  @media screen and (min-width: 1280px){
+    padding: 0px 10px;
+  }
+  @media screen and (min-width: 1600px){
+    padding: 0px 35px;
+  }
 }
-
 
 .navMenuText {
   padding: 10px 5px;
@@ -50,4 +80,16 @@
   line-height: calcFluidLineHeight(5, 20, 320, 1600);
   text-align: center;
   color: $additionalTextColor;
+  @media screen and (min-width: 768px){
+    padding: 15px 5px;
+  }
+  @media screen and (min-width: 1024px){
+    padding: 25px 5px;
+  }
+  @media screen and (min-width: 1280px){
+    padding: 30px 5px;
+  }
+  @media screen and (min-width: 1600px){
+    padding: 35px 5px;
+  }
 }
