@@ -142,19 +142,12 @@ select {
   font-style: normal;
   font-display: swap;
 }
-:root {
-  --main-text-color: #000000;
-  --additional-text-color: #ffffff;
-  --brand-color: rgba(34, 66, 115, 0.77);
-}
-
 body {
   font-family: "Kodchasan", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 4px;
   line-height: 20px;
-  background-color: rgb(175, 173, 173);
 }
 
 .container {
@@ -215,7 +208,7 @@ body {
   font-weight: 400;
   font-size: 4px;
   line-height: 5px;
-  color: var(--main-text-color);
+  color: #000000;
 }
 
 .navMenu {
@@ -233,7 +226,7 @@ body {
 }
 
 .navMenuItem {
-  background-color: var(--brand-color);
+  background-color: rgba(34, 66, 115, 0.77);
 }
 
 .navMenuText {
@@ -243,7 +236,7 @@ body {
   font-size: 3px;
   line-height: 4px;
   text-align: center;
-  color: var(--additional-text-color);
+  color: #ffffff;
 }
 
 .recoverySection {
@@ -257,7 +250,7 @@ body {
   bottom: 0;
   height: 1px;
   width: 53%;
-  background-color: var(--brand-color);
+  background-color: rgba(34, 66, 115, 0.77);
 }
 
 .recoveryWrap {
@@ -274,7 +267,7 @@ body {
   font-size: 8px;
   line-height: 10px;
   text-align: center;
-  color: var(--main-text-color);
+  color: #000000;
 }
 
 .recoveryContent {
@@ -289,7 +282,7 @@ body {
   font-size: 5px;
   line-height: 7px;
   text-align: center;
-  color: var(--main-text-color);
+  color: #000000;
 }
 
 .recoveryTextWrap {
@@ -341,7 +334,7 @@ body {
   bottom: 0;
   height: 1px;
   width: 53%;
-  background-color: var(--brand-color);
+  background-color: rgba(34, 66, 115, 0.77);
 }
 
 .crmTitle {
@@ -352,8 +345,8 @@ body {
   font-size: 7px;
   line-height: 9px;
   text-align: center;
-  color: var(--additional-text-color);
-  background-color: var(--brand-color);
+  color: #ffffff;
+  background-color: rgba(34, 66, 115, 0.77);
 }
 
 .crmContent {
@@ -460,7 +453,7 @@ input[type=checkbox] {
   bottom: 0;
   height: 1px;
   width: 53%;
-  background-color: var(--brand-color);
+  background-color: rgba(34, 66, 115, 0.77);
 }
 
 .cardsTitle {
@@ -480,8 +473,8 @@ input[type=checkbox] {
   font-size: 7px;
   line-height: 9px;
   text-align: center;
-  color: var(--additional-text-color);
-  background-color: var(--brand-color);
+  color: #ffffff;
+  background-color: rgba(34, 66, 115, 0.77);
   -webkit-box-shadow: 7px 9px 4px 5px rgba(34, 64, 140, 0.15);
           box-shadow: 7px 9px 4px 5px rgba(34, 64, 140, 0.15);
 }
@@ -494,7 +487,7 @@ input[type=checkbox] {
   font-size: 7px;
   line-height: 9px;
   text-align: center;
-  color: var(--main-text-color);
+  color: #000000;
 }
 
 .cardsTextBottom {
@@ -504,7 +497,7 @@ input[type=checkbox] {
   font-size: 5px;
   line-height: 7px;
   text-align: center;
-  color: var(--main-text-color);
+  color: #000000;
 }
 
 .cardsList {
@@ -539,7 +532,7 @@ input[type=checkbox] {
   font-size: 5px;
   line-height: 7px;
   text-align: center;
-  color: var(--main-text-color);
+  color: #000000;
 }
 
 .cardsImage1 {
@@ -607,7 +600,7 @@ input[type=checkbox] {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: var(--brand-color);
+  background-color: rgba(34, 66, 115, 0.77);
 }
 
 .foreignContentTextWrap {
@@ -619,7 +612,7 @@ input[type=checkbox] {
   font-weight: 400;
   font-size: 5px;
   line-height: 7px;
-  color: var(--additional-text-color);
+  color: #ffffff;
 }
 
 .foreignContentText:not(:last-child) {
@@ -686,8 +679,8 @@ input[type=checkbox] {
   font-size: 10px;
   line-height: 13px;
   text-align: center;
-  color: var(--additional-text-color);
-  background-color: var(--brand-color);
+  color: #ffffff;
+  background-color: rgba(34, 66, 115, 0.77);
   border-radius: 20px;
 }
 
@@ -733,7 +726,7 @@ input[type=checkbox] {
 .sliderTeamItem {
   width: 210px;
   padding: 8px;
-  background-color: var(--brand-color);
+  background-color: rgba(34, 66, 115, 0.77);
 }
 
 .sliderTeamItemImage {
@@ -747,7 +740,7 @@ input[type=checkbox] {
   font-size: 10px;
   line-height: 12px;
   text-align: center;
-  color: var(--additional-text-color);
+  color: #ffffff;
 }
 
 .sliderTeamItemText {
@@ -756,7 +749,7 @@ input[type=checkbox] {
   font-size: 10px;
   line-height: 12px;
   text-align: center;
-  color: var(--additional-text-color);
+  color: #ffffff;
 }
 
 .footerTitleWrap {
@@ -773,7 +766,7 @@ input[type=checkbox] {
 }
 
 .footerBackground {
-  background-color: var(--brand-color);
+  background-color: rgba(34, 66, 115, 0.77);
 }
 
 .footerContent {
@@ -800,7 +793,7 @@ input[type=checkbox] {
   font-size: 10px;
   line-height: 12px;
   text-align: center;
-  color: var(--additional-text-color);
+  color: #ffffff;
 }
 
 .footerItem {
@@ -842,7 +835,7 @@ input[type=checkbox] {
   font-weight: 400;
   font-size: 7px;
   line-height: 7px;
-  color: var(--additional-text-color);
+  color: #ffffff;
 }
 
 .footerContactsText {
@@ -850,5 +843,5 @@ input[type=checkbox] {
   font-weight: 300;
   font-size: 5px;
   line-height: 6px;
-  color: var(--main-text-color);
+  color: #000000;
 }/*# sourceMappingURL=main.css.map */

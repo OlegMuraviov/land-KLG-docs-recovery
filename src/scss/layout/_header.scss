@@ -24,7 +24,7 @@
   font-weight: 400;
   font-size: 4px;
   line-height: 5px;
-  color: var(--main-text-color);
+  color: $mainTextColor;
   
 }
 
@@ -39,7 +39,7 @@
 }
 
 .navMenuItem {
-  background-color: var(--brand-color);
+  background-color: $brandTextColor;
 }
 
 .navMenuText {
@@ -49,5 +49,5 @@
   font-size: 3px;
   line-height: 4px;
   text-align: center;
-  color: var(--additional-text-color);
+  color: $additionalTextColor;
 }

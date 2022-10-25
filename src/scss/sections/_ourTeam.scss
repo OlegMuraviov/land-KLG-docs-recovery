@@ -30,7 +30,7 @@
   .sliderTeamItem {
     width: 210px;
     padding: 8px;
-    background-color: var(--brand-color);
+    background-color: $brandTextColor;
   }
   
   .sliderTeamItemImage {
@@ -44,7 +44,7 @@
     font-size: 10px;
     line-height: 12px;
     text-align: center;
-    color: var(--additional-text-color);
+    color: $additionalTextColor;
   }
   
   .sliderTeamItemText {
@@ -53,6 +53,6 @@
     font-size: 10px;
     line-height: 12px;
     text-align: center;
-    color: var(--additional-text-color);
+    color: $additionalTextColor;
   }
   

@@ -10,7 +10,7 @@
   bottom: 0;
   height: 1px;
   width: 53%;
-  background-color: var(--brand-color);
+  background-color: $brandTextColor;
 }
 
 .crmTitle {
@@ -21,8 +21,8 @@
   font-size: 7px;
   line-height: 9px;
   text-align: center;
-  color: var(--additional-text-color);
-  background-color: var(--brand-color);
+  color: $additionalTextColor;
+  background-color: $brandTextColor;
 }
 
 .crmContent {

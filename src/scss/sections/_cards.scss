@@ -10,7 +10,7 @@
   bottom: 0;
   height: 1px;
   width: 53%;
-  background-color: var(--brand-color);
+  background-color: $brandTextColor;
 }
 
 .cardsTitle {
@@ -30,8 +30,8 @@
   font-size: 7px;
   line-height: 9px;
   text-align: center;
-  color: var(--additional-text-color);
-  background-color: var(--brand-color);
+  color: $additionalTextColor;
+  background-color: $brandTextColor;
   box-shadow: 7px 9px 4px 5px rgba(34, 64, 140, 0.15);
 }
 
@@ -43,7 +43,7 @@
   font-size: 7px;
   line-height: 9px;
   text-align: center;
-  color: var(--main-text-color);
+  color: $mainTextColor;
 }
 
 .cardsTextBottom {
@@ -53,7 +53,7 @@
   font-size: 5px;
   line-height: 7px;
   text-align: center;
-  color: var(--main-text-color);
+  color: $mainTextColor;
 }
 
 .cardsList {
@@ -86,7 +86,7 @@
   font-size: 5px;
   line-height: 7px;
   text-align: center;
-  color: var(--main-text-color);
+  color: $mainTextColor;
 }
 
 .cardsImage1 {

@@ -36,8 +36,8 @@
     font-size: 10px;
     line-height: 13px;
     text-align: center;
-    color: var(--additional-text-color);
-    background-color: var(--brand-color);
+    color: $additionalTextColor;
+    background-color: $brandTextColor;
     border-radius: 20px;
 }
 
