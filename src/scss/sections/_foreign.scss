@@ -7,8 +7,8 @@
   padding: 0 55px;
   font-family: "Kodchasan", sans-serif;
   font-weight: 600;
-  font-size: 7px;
-  line-height: 9px;
+  font-size: calcFluidFontSize(7, 25, 320, 1600);
+  line-height: calcFluidLineHeight(9, 32, 320, 1600);
   text-align: center;
 }
 
@@ -27,8 +27,8 @@
 .foreignContentText {
   font-family: "Kodchasan", sans-serif;
   font-weight: 400;
-  font-size: 5px;
-  line-height: 7px;
+  font-size: calcFluidFontSize(5, 25, 320, 1600);
+  line-height: calcFluidLineHeight(7, 32, 320, 1600);
   color: $additionalTextColor;
 }
 

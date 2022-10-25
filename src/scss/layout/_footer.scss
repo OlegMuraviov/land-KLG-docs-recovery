@@ -1,82 +1,82 @@
 .footerTitleWrap {
-    padding-top: 20px;
-    padding-bottom: 15px;
+  padding-top: 20px;
+  padding-bottom: 15px;
 }
 
 .footerTitle {
-    font-family: 'HelveticaNeue', sans-serif;
-    font-weight: 700;
-    font-size: 10px;
-    line-height: 12px;
-    text-align: center;
-
+  font-family: "HelveticaNeue", sans-serif;
+  font-weight: 700;
+  font-size: calcFluidFontSize(10, 25, 320, 1600);
+  line-height: calcFluidLineHeight(12, 31, 320, 1600);
+  text-align: center;
 }
 
 .footerBackground {
-    background-color: $brandTextColor;
+  background-color: $brandTextColor;
 }
 
 .footerContent {
-    padding: 5px 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  padding: 5px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .footerLogo {
-    width: 73px;
-    height: 39px;
+  width: 25%;
 }
 
 .footerSlogan {
-    font-family: 'HelveticaNeue', sans-serif;
-    font-weight: 500;
-    font-size: 10px;
-    line-height: 12px;
-    text-align: center;
-    color: $additionalTextColor;
+  font-family: "HelveticaNeue", sans-serif;
+  font-weight: 500;
+  font-size: calcFluidFontSize(10, 32, 320, 1600);
+  line-height: calcFluidLineHeight(12, 39, 320, 1600);
+  text-align: center;
+  color: $additionalTextColor;
 }
 
 .footerItem {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
-.footerItem:not(:last-child){
-    margin-bottom: 10px;
+.footerItem:not(:last-child) {
+  margin-bottom: 10px;
 }
 
 .footerContactsImage1 {
-    margin-right: 7px;
-    width: 13px;
-    height: 13px;
+  margin-right: 7px;
+  width: 13px;
+  height: 13px;
 }
 
 .footerContactsImage2 {
-    margin-right: 3px;
-    width: 16px;
-    height: 11px;
+  margin-right: 3px;
+  width: 16px;
+  height: 11px;
 }
 
 .footerContactsImage3 {
-    margin-right: 7px;
-    width: 12px;
-    height: 13px;
+  margin-right: 7px;
+  width: 12px;
+  height: 13px;
 }
 
 .footerContactsTitle {
-    font-family: "Hubballi", sans-serif;
-    font-weight: 400;
-    font-size: 7px;
-    line-height: 7px;
-    color: $additionalTextColor;
+  font-family: "Hubballi", sans-serif;
+  font-weight: 400;
+  font-size: calcFluidFontSize(7, 20, 320, 1600);
+  line-height: calcFluidLineHeight(7, 19, 320, 1600);
+  color: $additionalTextColor;
 }
 
 .footerContactsText {
-    font-family: "HelveticaNeue", sans-serif;
-    font-weight: 300;
-    font-size: 5px;
-    line-height: 6px;
-    color: $mainTextColor;
+  font-family: "HelveticaNeue", sans-serif;
+  font-weight: 300;
+  font-size: 5px;
+  line-height: 6px;
+  font-size: calcFluidFontSize(5, 18, 320, 1600);
+  line-height: calcFluidLineHeight(6, 22, 320, 1600);
+  color: $mainTextColor;
 }
