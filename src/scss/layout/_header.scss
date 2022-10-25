@@ -1,0 +1,53 @@
+.headerWrap {
+  position: relative;
+  padding-top: 15px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.headerLogo {
+  position: absolute;
+  top: 5px;
+  left: 0;
+  width: 73px;
+  height: 39px;
+}
+
+.headerContactsWrap {
+  margin-bottom: 5px;
+  text-align: end;
+}
+
+.headerContacts {
+  margin-right: 5px;
+  font-family: "Kodchasan", sans-serif;
+  font-weight: 400;
+  font-size: 4px;
+  line-height: 5px;
+  color: var(--main-text-color);
+  
+}
+
+.navMenu {
+  width: 100%;
+}
+
+.navMenuList {
+  display: flex;
+  align-items: stretch;
+  width: 100%;
+}
+
+.navMenuItem {
+  background-color: var(--brand-color);
+}
+
+.navMenuText {
+  padding: 10px;
+  font-family: "Kodchasan", sans-serif;
+  font-weight: 400;
+  font-size: 3px;
+  line-height: 4px;
+  text-align: center;
+  color: var(--additional-text-color);
+}

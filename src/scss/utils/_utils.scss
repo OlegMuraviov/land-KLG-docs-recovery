@@ -1,0 +1,41 @@
+body {
+  font-family: "Kodchasan", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 4px;
+  line-height: 20px;
+
+  // TMP
+  background-color: rgb(175, 173, 173);
+}
+
+.container {
+  
+
+  margin: 0 auto;
+  padding: 0 15px;
+  min-width: 320px;
+  width: 100%;
+  //min-content 290px;
+
+  @media screen and (min-width: 768px) {
+    width: 768px;
+    //content 730px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    padding: 0 40px;
+    width: 1024px;
+    //content 944px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    width: 1280px;
+    //content 1200px;
+  }
+
+  @media screen and (min-width: 1600px) {
+    width: 1600px;
+    //content 1520px;
+  }
+}

@@ -1,0 +1,51 @@
+.identificationSection {
+    padding: 10px 0;
+}
+
+.identificationTitle {
+    margin-bottom: 10px;
+    font-family: 'Kodchasan', sans-serif;
+    font-weight: 600;
+    font-size: 7px;
+    line-height: 9px;
+    text-align: center;
+}
+
+.identificationContent {
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.identificationImageWrap {
+    display: block;
+    margin-right: 10px;
+    flex-shrink: 0;
+    width: 43%;
+}
+
+.identificationImage{
+    margin-bottom: 25px;
+}
+
+.identificationButtonText {
+    padding: 5px;
+    font-family: 'Kodchasan', sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 13px;
+    text-align: center;
+    color: var(--additional-text-color);
+    background-color: var(--brand-color);
+    border-radius: 20px;
+}
+
+.identificationText {
+    font-family: 'Kodchasan', sans-serif;
+    font-weight: 400;
+    font-size: 5px;
+    line-height: 7px;
+    text-align: justify;
+    text-indent: 10px;
+}

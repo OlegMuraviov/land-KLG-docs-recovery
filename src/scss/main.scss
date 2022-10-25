@@ -1,0 +1,13 @@
+@import "./utils/reset"; // RESET
+@import "./utils/fonts"; // FONTS
+@import './utils/variables'; //COLORS
+@import './utils/utils'; // CONTAINER
+
+@import './layout/header';
+@import './sections/recovery';
+@import './sections/crm';
+@import './sections/cards';
+@import './sections/foreign';
+@import './sections/identification';
+@import './sections/ourTeam';
+@import './layout/footer';

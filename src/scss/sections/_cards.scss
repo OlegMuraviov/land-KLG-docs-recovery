@@ -1,0 +1,130 @@
+.cardsSection {
+  position: relative;
+  padding: 10px 0;
+}
+
+.cardsSection::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 1px;
+  width: 53%;
+  background-color: var(--brand-color);
+}
+
+.cardsTitle {
+  margin-bottom: 10px;
+  font-family: "Kodchasan", sans-serif;
+  font-weight: 600;
+  font-size: 8px;
+  line-height: 10px;
+  text-align: center;
+}
+
+.cardsTextTop {
+  margin-bottom: 10px;
+  padding: 10px 5px;
+  font-family: "Kodchasan", sans-serif;
+  font-weight: 600;
+  font-size: 7px;
+  line-height: 9px;
+  text-align: center;
+  color: var(--additional-text-color);
+  background-color: var(--brand-color);
+  box-shadow: 7px 9px 4px 5px rgba(34, 64, 140, 0.15);
+}
+
+.cardsTextMidle {
+  margin-bottom: 20px;
+  padding: 0 5px;
+  font-family: "Kodchasan", sans-serif;
+  font-weight: 500;
+  font-size: 7px;
+  line-height: 9px;
+  text-align: center;
+  color: var(--main-text-color);
+}
+
+.cardsTextBottom {
+  padding: 0 40px;
+  font-family: "Kodchasan", sans-serif;
+  font-weight: 600;
+  font-size: 5px;
+  line-height: 7px;
+  text-align: center;
+  color: var(--main-text-color);
+}
+
+.cardsList {
+  margin-bottom: 15px;
+  // display: flex;
+  // justify-content: space-between;
+  // flex-wrap: wrap;
+  // align-content: stretch;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: 1fr;
+  grid-gap: 5px;
+}
+
+.cardsItem {
+  padding: 5px 10px;
+  
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border: 3px solid rgba(34, 66, 115, 0.77);
+  border-radius: 20px;
+}
+
+.cardsDescription {
+  font-family: "Kodchasan", sans-serif;
+  font-weight: 400;
+  font-size: 5px;
+  line-height: 7px;
+  text-align: center;
+  color: var(--main-text-color);
+}
+
+.cardsImage1 {
+  width: 24px;
+  height: 25px;
+}
+
+.cardsImage2 {
+  width: 24px;
+  height: 28px;
+}
+
+.cardsImage3 {
+  width: 28px;
+  height: 30px;
+}
+
+.cardsImage4 {
+  width: 32px;
+  height: 33px;
+}
+
+.cardsImage5 {
+  width: 36px;
+  height: 34px;
+}
+
+.cardsImage6 {
+  width: 30px;
+  height: 34px;
+}
+
+.cardsImage7 {
+  width: 37px;
+  height: 36px;
+}
+
+.cardsImage8 {
+  width: 31px;
+  height: 30px;
+}
