@@ -512,6 +512,11 @@ body {
   width: 53%;
   background-color: rgba(34, 66, 115, 0.77);
 }
+@media screen and (min-width: 768px) {
+  .crmSection::after {
+    width: calc(50% - 10px);
+  }
+}
 
 .crmTitle {
   margin-bottom: 10px;
@@ -771,11 +776,23 @@ input[type=checkbox] {
 .cardsSection::after {
   content: "";
   position: absolute;
-  right: 0;
+  right: 50%;
   bottom: 0;
   height: 1px;
   width: 53%;
   background-color: rgba(34, 66, 115, 0.77);
+}
+@media screen and (min-width: 768px) {
+  .cardsSection::after {
+    width: 60%;
+    -webkit-transform: translateX(50%);
+            transform: translateX(50%);
+  }
+}
+@media screen and (min-width: 1024px) {
+  .cardsSection::after {
+    width: 70%;
+  }
 }
 
 .cardsTitle {
@@ -1356,7 +1373,9 @@ input[type=checkbox] {
 }
 
 .identificationButtonText {
+  margin: 0 auto;
   padding: 5px;
+  width: 60%;
   font-family: "Kodchasan", sans-serif;
   font-weight: 400;
   font-size: 10px;
@@ -1367,6 +1386,21 @@ input[type=checkbox] {
   color: #ffffff;
   background-color: rgba(34, 66, 115, 0.77);
   border-radius: 20px;
+}
+@media screen and (min-width: 768px) {
+  .identificationButtonText {
+    padding: 10px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .identificationButtonText {
+    padding: 15px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .identificationButtonText {
+    padding: 20px;
+  }
 }
 
 .identificationText {

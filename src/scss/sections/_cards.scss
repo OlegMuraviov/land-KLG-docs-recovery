@@ -18,11 +18,20 @@
 .cardsSection::after {
   content: "";
   position: absolute;
-  right: 0;
+  right: 50%;
   bottom: 0;
   height: 1px;
   width: 53%;
   background-color: $brandTextColor;
+  @media screen and (min-width: 768px) {
+    width: 60%;
+    transform: translateX(50%);
+  }
+  @media screen and (min-width: 1024px) {
+    width: 70%;
+    
+  }
+
 }
 
 .cardsTitle {
