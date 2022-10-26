@@ -20,6 +20,9 @@
 
 .headerContent {
   width: 75%;
+  @media screen and (min-width: 1280px){
+    width: 80%;
+  }
 }
 
 .headerContactsWrap1 {
