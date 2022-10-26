@@ -44,7 +44,7 @@
             <nav class="navMenu">
               <ul class="navMenuList">
                 <li class="navMenuItem">
-                  <a class="navMenuLink" href="#"
+                  <a class="navMenuLink" href="#recoveryId"
                     ><p class="navMenuText">
                       Поновлення <br />
                       документів
@@ -52,7 +52,7 @@
                   >
                 </li>
                 <li class="navMenuItem">
-                  <a class="navMenuLink" href="#"
+                  <a class="navMenuLink" href="#cardsId"
                     ><p class="navMenuText">
                       Як поновити документи <br />
                       після втрати?
@@ -60,7 +60,7 @@
                   >
                 </li>
                 <li class="navMenuItem">
-                  <a class="navMenuLink" href="#"
+                  <a class="navMenuLink" href="#foreignId"
                     ><p class="navMenuText">
                       Поновлення документів <br />
                       для іноземців
@@ -68,7 +68,7 @@
                   >
                 </li>
                 <li class="navMenuItem">
-                  <a class="navMenuLink" href="#"
+                  <a class="navMenuLink" href="#identificationId"
                     ><p class="navMenuText">
                       Встановлення <br />
                       особи
@@ -76,7 +76,7 @@
                   >
                 </li>
                 <li class="navMenuItem">
-                  <a href="#"><p class="navMenuText">Як замовити?</p></a>
+                  <a href="#crmId"><p class="navMenuText">Як замовити?</p></a>
                 </li>
                 <li class="headerContactsWrap2">
                     <p class="headerContacts">Koval Legal Group</p>
@@ -99,7 +99,7 @@
       <section class="recoverySection">
         <div class="container">
           <div class="recoveryWrap">
-            <h1 class="recoveryTitle">ПОНОВЛЕННЯ ДОКУМЕНТІВ</h1>
+            <h1 id="recoveryId" class="recoveryTitle">ПОНОВЛЕННЯ ДОКУМЕНТІВ</h1>
             <div class="recoveryContent">
               <div class="recoveryTextWrap">
                 <p class="recoveryText">
@@ -138,7 +138,7 @@
       <!-- CRM SECTION -->
       <section class="crmSection">
         <div class="container">
-          <h3 class="crmTitle">
+          <h3 id="crmId" class="crmTitle">
             Залишайте Ваше звернення і наш юрист зателефонує Вам у лічені
             секунди
           </h3>
@@ -170,7 +170,7 @@
       <!-- CARDS SECTION -->
       <section class="cardsSection">
         <div class="container">
-          <h2 class="cardsTitle">ПОНОВЛЕННЯ ДОКУМЕНТІВ ПІСЛЯ ВТРАТИ</h2>
+          <h2 id="cardsId" class="cardsTitle">ПОНОВЛЕННЯ ДОКУМЕНТІВ ПІСЛЯ ВТРАТИ</h2>
           <p class="cardsTextTop">
             Сьогодні документом, який визначає приналежність особи до держави
             України і підтверджує громадянство, є паспорт громадянина України. В
@@ -305,7 +305,7 @@
       <!-- FOREIGN SECTION -->
       <section class="foreignSection">
         <div class="container">
-          <h3 class="foreignTitle">
+          <h3 id="foreignId" class="foreignTitle">
             ПОНОВЛЕННЯ ДОКУМЕНТІВ ПІСЛЯ ВТРАТИ ДЛЯ ІНОЗЕМЦІВ
           </h3>
           <div class="foreignContent">
@@ -365,7 +365,7 @@
       <!-- IDENTIFICATION SECTION -->
       <section class="identificationSection">
         <div class="container">
-          <h3 class="identificationTitle">ВСТАНОВЛЕННЯ ОСОБИ</h3>
+          <h3 id="identificationId" class="identificationTitle">ВСТАНОВЛЕННЯ ОСОБИ</h3>
           <div class="identificationContent">
             <div class="identificationImageWrap">
               <img
@@ -540,6 +540,35 @@
       </div>
     </footer>
     <!-- SCRIPTS -->
+    <!--*--*--*--*--*-- CALLBACK --*--*--*--*--*-->
+    <div class="callBack">
+      <script type="text/javascript">
+        (function (d, w, s) {
+          var widgetHash = "noaae5ozshnv2loap9ox",
+            gcw = d.createElement(s);
+          gcw.type = "text/javascript";
+          gcw.async = true;
+          gcw.src =
+            "//widgets.binotel.com/getcall/widgets/" + widgetHash + ".js";
+          var sn = d.getElementsByTagName(s)[0];
+          sn.parentNode.insertBefore(gcw, sn);
+        })(document, window, "script");
+      </script>
+      <!--*--*--*--*--*-- WIDGET --*--*--*--*--*-->
+      <script>
+        (function (w, d, u) {
+          var s = d.createElement("script");
+          s.async = true;
+          s.src = u + "?" + ((Date.now() / 60000) | 0);
+          var h = d.getElementsByTagName("script")[0];
+          h.parentNode.insertBefore(s, h);
+        })(
+          window,
+          document,
+          "https://cdn.bitrix24.ua/b1527935/crm/site_button/loader_20_0bhx7t.js"
+        );
+      </script>
+    </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
     <script src='./src/js/slider.js' type="module"></script>
   </body>
