@@ -22,6 +22,18 @@
   font-size: calcFluidFontSize(7, 25, 320, 1600);
   line-height: calcFluidLineHeight(9, 32, 320, 1600);
   text-align: center;
+  @media screen and (min-width: 768px){
+    margin-bottom: 15px;
+  }
+  @media screen and (min-width: 1024px){
+    margin-bottom: 20px;
+  }
+  @media screen and (min-width: 1280px){
+    margin-bottom: 30px;
+  }
+  @media screen and (min-width: 1600px){
+    margin-bottom: 40px;
+  }
 }
 
 .foreignContent {

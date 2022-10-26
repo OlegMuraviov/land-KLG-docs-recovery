@@ -912,26 +912,31 @@ input[type=checkbox] {
 }
 @media screen and (min-width: 600px) {
   .cardsList {
+    margin-bottom: 20px;
     grid-gap: 10px;
   }
 }
 @media screen and (min-width: 768px) {
   .cardsList {
+    margin-bottom: 25px;
     grid-gap: 15px;
   }
 }
 @media screen and (min-width: 1024px) {
   .cardsList {
+    margin-bottom: 30px;
     grid-gap: 20px;
   }
 }
 @media screen and (min-width: 1280px) {
   .cardsList {
+    margin-bottom: 35px;
     grid-gap: 25px;
   }
 }
 @media screen and (min-width: 1600px) {
   .cardsList {
+    margin-bottom: 40px;
     grid-gap: 30px;
   }
 }
@@ -1222,6 +1227,26 @@ input[type=checkbox] {
   font-size: calc( 0.0140625 * 100vw + 2.5px );
   line-height: calc( 0.01796875 * 100vw + 3.25px );
   text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .foreignTitle {
+    margin-bottom: 15px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .foreignTitle {
+    margin-bottom: 20px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .foreignTitle {
+    margin-bottom: 30px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .foreignTitle {
+    margin-bottom: 40px;
+  }
 }
 
 .foreignContent {

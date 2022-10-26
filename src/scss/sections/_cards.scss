@@ -122,19 +122,24 @@
     flex-wrap: wrap;
   }
   @media screen and (min-width: 600px){
+    margin-bottom: 20px;
     grid-gap: 10px;
   }
   @media screen and (min-width: 768px){
+    margin-bottom: 25px;
     grid-gap: 15px;
   }
   @media screen and (min-width: 1024px){
+    margin-bottom: 30px;
     grid-gap: 20px;
   }
   @media screen and (min-width: 1280px){
+    margin-bottom: 35px;
     grid-gap: 25px;
   }
   @media screen and (min-width: 1600px){
-    grid-gap: 30px;
+    margin-bottom: 40px;
+    grid-gap: 30px;    
   }
 }
 
