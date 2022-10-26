@@ -1298,9 +1298,49 @@ input[type=checkbox] {
 .foreignContentText:not(:last-child) {
   margin-bottom: 10px;
 }
+@media screen and (min-width: 768px) {
+  .foreignContentText:not(:last-child) {
+    margin-bottom: 15px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .foreignContentText:not(:last-child) {
+    margin-bottom: 20px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .foreignContentText:not(:last-child) {
+    margin-bottom: 30px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .foreignContentText:not(:last-child) {
+    margin-bottom: 40px;
+  }
+}
 
 .foreignList {
   margin-bottom: 10px;
+}
+@media screen and (min-width: 768px) {
+  .foreignList {
+    margin-bottom: 15px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .foreignList {
+    margin-bottom: 20px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .foreignList {
+    margin-bottom: 30px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .foreignList {
+    margin-bottom: 40px;
+  }
 }
 
 .foreignItem {
@@ -1492,7 +1532,7 @@ input[type=checkbox] {
   margin-bottom: 10px;
   padding: 0 10px;
   font-family: "HelveticaNeue", sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 7px;
   line-height: 8px;
   font-size: calc( 0.01953125 * 100vw + 0.75px );

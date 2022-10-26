@@ -70,10 +70,34 @@
 
 .foreignContentText:not(:last-child) {
   margin-bottom: 10px;
+  @media screen and (min-width: 768px){
+    margin-bottom: 15px;
+  }
+  @media screen and (min-width: 1024px){
+    margin-bottom: 20px;
+  }
+  @media screen and (min-width: 1280px){
+    margin-bottom: 30px;
+  }
+  @media screen and (min-width: 1600px){
+    margin-bottom: 40px;
+  }
 }
 
 .foreignList {
   margin-bottom: 10px;
+  @media screen and (min-width: 768px){
+    margin-bottom: 15px;
+  }
+  @media screen and (min-width: 1024px){
+    margin-bottom: 20px;
+  }
+  @media screen and (min-width: 1280px){
+    margin-bottom: 30px;
+  }
+  @media screen and (min-width: 1600px){
+    margin-bottom: 40px;
+  }
 }
 
 .foreignItem {
