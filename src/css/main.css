@@ -829,6 +829,45 @@ input[type=checkbox] {
   grid-auto-rows: 1fr;
   grid-gap: 5px;
 }
+@media screen and (min-width: 400px) {
+  .cardsList {
+    grid-template-columns: unset;
+    grid-auto-rows: unset;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+@media screen and (min-width: 600px) {
+  .cardsList {
+    grid-gap: 10px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .cardsList {
+    grid-gap: 15px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .cardsList {
+    grid-gap: 20px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .cardsList {
+    grid-gap: 25px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .cardsList {
+    grid-gap: 30px;
+  }
+}
 
 .cardsItem {
   padding: 5px 10px;
@@ -846,6 +885,41 @@ input[type=checkbox] {
           align-items: center;
   border: 3px solid rgba(34, 66, 115, 0.77);
   border-radius: 20px;
+}
+@media screen and (min-width: 400px) {
+  .cardsItem {
+    width: 180px;
+    height: 120px;
+  }
+}
+@media screen and (min-width: 600px) {
+  .cardsItem {
+    height: 140px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .cardsItem {
+    width: 200px;
+    height: 180px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .cardsItem {
+    width: 300px;
+    height: 200px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .cardsItem {
+    width: 350px;
+    height: 250px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .cardsItem {
+    width: 400px;
+    height: 300px;
+  }
 }
 
 .cardsDescription {
