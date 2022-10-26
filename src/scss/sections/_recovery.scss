@@ -8,7 +8,7 @@
   left: 0;
   bottom: 0;
   height: 1px;
-  width: 53%;
+  width: 50%;
   background-color: $brandTextColor;
   @media screen and (min-width: 768px){
     width: 44%;
@@ -75,6 +75,10 @@
 .recoveryTextWrap {
   flex-shrink: 0;
   width: 50%;
+  margin-right: 10px;
+  @media screen and (min-width: 768px){
+    margin-right: 0;
+  }
 }
 
 .recoveryText:first-of-type {
@@ -93,27 +97,7 @@
   }
 }
 
-.recoveryImagesWrap {
-  position: relative;
-  flex-shrink: 0;
+.recoveryImage {
   width: 50%;
-  display: flex;
-  justify-content: flex-end;
-}
-
-.recoveryImageLeft {
-  position: absolute;
-  top: 50%;
-  left: 10%;
-  z-index: 5;
-  width: 50%;
-  transform: translateY(-50%) rotate(-10deg);
-  @media screen and (min-width: 768px){
-    left: 0;
-    transform: translateY(-50%) rotate(0);
-  }
-}
-
-.recoveryImageRight {
-  width: 50%;
+ padding-right: 10px;
 }

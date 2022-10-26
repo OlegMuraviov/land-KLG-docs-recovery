@@ -326,7 +326,7 @@ body {
   left: 0;
   bottom: 0;
   height: 1px;
-  width: 53%;
+  width: 50%;
   background-color: rgba(34, 66, 115, 0.77);
 }
 @media screen and (min-width: 768px) {
@@ -418,6 +418,12 @@ body {
   -ms-flex-negative: 0;
       flex-shrink: 0;
   width: 50%;
+  margin-right: 10px;
+}
+@media screen and (min-width: 768px) {
+  .recoveryTextWrap {
+    margin-right: 0;
+  }
 }
 
 .recoveryText:first-of-type {
@@ -444,38 +450,9 @@ body {
   }
 }
 
-.recoveryImagesWrap {
-  position: relative;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
+.recoveryImage {
   width: 50%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-}
-
-.recoveryImageLeft {
-  position: absolute;
-  top: 50%;
-  left: 10%;
-  z-index: 5;
-  width: 50%;
-  -webkit-transform: translateY(-50%) rotate(-10deg);
-          transform: translateY(-50%) rotate(-10deg);
-}
-@media screen and (min-width: 768px) {
-  .recoveryImageLeft {
-    left: 0;
-    -webkit-transform: translateY(-50%) rotate(0);
-            transform: translateY(-50%) rotate(0);
-  }
-}
-
-.recoveryImageRight {
-  width: 50%;
+  padding-right: 10px;
 }
 
 .crmSection {
