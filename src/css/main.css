@@ -1126,6 +1126,26 @@ input[type=checkbox] {
 .foreignSection {
   padding: 10px 0;
 }
+@media screen and (min-width: 768px) {
+  .foreignSection {
+    padding: 15px 0;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .foreignSection {
+    padding: 20px 0;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .foreignSection {
+    padding: 25px 0;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .foreignSection {
+    padding: 30px 0;
+  }
+}
 
 .foreignTitle {
   margin-bottom: 10px;
@@ -1149,6 +1169,26 @@ input[type=checkbox] {
       -ms-flex-align: center;
           align-items: center;
   background-color: rgba(34, 66, 115, 0.77);
+}
+@media screen and (min-width: 768px) {
+  .foreignContent {
+    padding: 15px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .foreignContent {
+    padding: 20px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .foreignContent {
+    padding: 25px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .foreignContent {
+    padding: 30px;
+  }
 }
 
 .foreignContentTextWrap {
@@ -1180,6 +1220,11 @@ input[type=checkbox] {
   width: 44%;
   -webkit-filter: drop-shadow(12px 9px 12px rgba(0, 0, 0, 0.25));
           filter: drop-shadow(12px 9px 12px rgba(0, 0, 0, 0.25));
+}
+@media screen and (min-width: 768px) {
+  .foreignImage {
+    margin-right: 0;
+  }
 }
 
 .identificationSection {
