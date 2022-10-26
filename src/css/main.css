@@ -1358,6 +1358,26 @@ input[type=checkbox] {
   line-height: calc( 0.02109375 * 100vw + 5.25px );
   text-align: center;
 }
+@media screen and (min-width: 768px) {
+  .ourTeamTitle {
+    margin-bottom: 20px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .ourTeamTitle {
+    margin-bottom: 30px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .ourTeamTitle {
+    margin-bottom: 40px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .ourTeamTitle {
+    margin-bottom: 50px;
+  }
+}
 
 .ourTeamText {
   margin-bottom: 10px;
@@ -1369,6 +1389,26 @@ input[type=checkbox] {
   font-size: calc( 0.01953125 * 100vw + 0.75px );
   line-height: calc( 0.0234375 * 100vw + 0.5px );
   text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .ourTeamText {
+    margin-bottom: 20px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .ourTeamText {
+    margin-bottom: 30px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .ourTeamText {
+    margin-bottom: 45px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .ourTeamText {
+    margin-bottom: 60px;
+  }
 }
 
 .sliderWrap {
@@ -1385,17 +1425,20 @@ input[type=checkbox] {
 }
 @media screen and (min-width: 1024px) {
   .sliderWrap {
+    margin-right: 40px;
     max-width: 944px;
   }
 }
 @media screen and (min-width: 1280px) {
   .sliderWrap {
+    margin-right: 80px;
     max-width: 1120px;
   }
 }
 @media screen and (min-width: 1600px) {
   .sliderWrap {
-    max-width: 1400px;
+    margin-right: 100px;
+    max-width: 1300px;
   }
 }
 
@@ -1485,6 +1528,30 @@ input[type=checkbox] {
   padding-top: 20px;
   padding-bottom: 15px;
 }
+@media screen and (min-width: 768px) {
+  .footerTitleWrap {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .footerTitleWrap {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .footerTitleWrap {
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .footerTitleWrap {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
 
 .footerTitle {
   font-family: "HelveticaNeue", sans-serif;
@@ -1543,19 +1610,86 @@ input[type=checkbox] {
 .footerContactsImage1 {
   margin-right: 7px;
   width: 13px;
-  height: 13px;
+}
+@media screen and (min-width: 768px) {
+  .footerContactsImage1 {
+    margin-right: 8px;
+    width: 21px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .footerContactsImage1 {
+    margin-right: 10px;
+    width: 29px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .footerContactsImage1 {
+    margin-right: 13px;
+    width: 38px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .footerContactsImage1 {
+    margin-right: 15px;
+    width: 47px;
+  }
 }
 
 .footerContactsImage2 {
   margin-right: 3px;
   width: 16px;
-  height: 11px;
+}
+@media screen and (min-width: 768px) {
+  .footerContactsImage2 {
+    margin-right: 4px;
+    width: 25px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .footerContactsImage2 {
+    width: 35px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .footerContactsImage2 {
+    margin-right: 5px;
+    width: 46px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .footerContactsImage2 {
+    width: 57px;
+  }
 }
 
 .footerContactsImage3 {
   margin-right: 7px;
   width: 12px;
-  height: 13px;
+}
+@media screen and (min-width: 768px) {
+  .footerContactsImage3 {
+    margin-right: 10px;
+    width: 20px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .footerContactsImage3 {
+    margin-right: 12px;
+    width: 28px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .footerContactsImage3 {
+    margin-right: 16px;
+    width: 36px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .footerContactsImage3 {
+    margin-right: 18px;
+    width: 45px;
+  }
 }
 
 .footerContactsTitle {
