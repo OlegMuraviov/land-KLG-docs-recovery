@@ -10,6 +10,12 @@
   height: 1px;
   width: 53%;
   background-color: $brandTextColor;
+  @media screen and (min-width: 768px){
+    width: 44%;
+  }
+  @media screen and (min-width: 1280px){
+    width: 45%;
+  }
 }
 
 .recoveryWrap {
@@ -52,6 +58,18 @@
   line-height: calcFluidLineHeight(7, 27, 320, 1600);
   text-align: center;
   color: $mainTextColor;
+  @media screen and (min-width: 768px){
+    width: 320px;
+  }
+  @media screen and (min-width: 1024px){
+    width: 400px;
+  }
+  @media screen and (min-width: 1280px){
+    width: 500px;
+  }
+  @media screen and (min-width: 1600px){
+    width: 600px;
+  }
 }
 
 .recoveryTextWrap {
