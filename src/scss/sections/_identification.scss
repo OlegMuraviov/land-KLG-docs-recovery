@@ -1,5 +1,17 @@
 .identificationSection {
   padding: 10px 0;
+  @media screen and (min-width: 768px){
+    padding: 15px 0;
+  }
+  @media screen and (min-width: 1024px){
+    padding: 20px 0;
+  }
+  @media screen and (min-width: 1280px){
+    padding: 25px 0;
+  }
+  @media screen and (min-width: 1600px){
+    padding: 30px 0;
+  }
 }
 
 .identificationTitle {
@@ -9,6 +21,18 @@
   font-size: calcFluidFontSize(7, 25, 320, 1600);
   line-height: calcFluidLineHeight(9, 32, 320, 1600);
   text-align: center;
+  @media screen and (min-width: 768px){
+    margin-bottom: 20px;
+  }
+  @media screen and (min-width: 1024px){
+    margin-bottom: 30px;
+  }
+  @media screen and (min-width: 1280px){
+    margin-bottom: 45px;
+  }
+  @media screen and (min-width: 1600px){
+    margin-bottom: 60px;
+  }
 }
 
 .identificationContent {
@@ -50,4 +74,16 @@
   line-height: calcFluidLineHeight(7, 32, 320, 1600);
   text-align: justify;
   text-indent: 10px;
+  @media screen and (min-width: 768px){
+    text-indent: 15px;
+  }
+  @media screen and (min-width: 1024px){
+    text-indent: 20px;
+  }
+  @media screen and (min-width: 1280px){
+    text-indent: 25px;
+  }
+  @media screen and (min-width: 1600px){
+    text-indent: 30px;
+  }
 }

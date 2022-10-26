@@ -1230,6 +1230,26 @@ input[type=checkbox] {
 .identificationSection {
   padding: 10px 0;
 }
+@media screen and (min-width: 768px) {
+  .identificationSection {
+    padding: 15px 0;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .identificationSection {
+    padding: 20px 0;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .identificationSection {
+    padding: 25px 0;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .identificationSection {
+    padding: 30px 0;
+  }
+}
 
 .identificationTitle {
   margin-bottom: 10px;
@@ -1238,6 +1258,26 @@ input[type=checkbox] {
   font-size: calc( 0.0140625 * 100vw + 2.5px );
   line-height: calc( 0.01796875 * 100vw + 3.25px );
   text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .identificationTitle {
+    margin-bottom: 20px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .identificationTitle {
+    margin-bottom: 30px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .identificationTitle {
+    margin-bottom: 45px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .identificationTitle {
+    margin-bottom: 60px;
+  }
 }
 
 .identificationContent {
@@ -1287,6 +1327,26 @@ input[type=checkbox] {
   text-align: justify;
   text-indent: 10px;
 }
+@media screen and (min-width: 768px) {
+  .identificationText {
+    text-indent: 15px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .identificationText {
+    text-indent: 20px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .identificationText {
+    text-indent: 25px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .identificationText {
+    text-indent: 30px;
+  }
+}
 
 .ourTeamTitle {
   margin-bottom: 10px;
@@ -1316,11 +1376,86 @@ input[type=checkbox] {
   padding: 0 40px;
   max-width: 400px;
 }
+@media screen and (min-width: 768px) {
+  .sliderWrap {
+    margin-right: 30px;
+    padding: 0;
+    max-width: 700px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .sliderWrap {
+    max-width: 944px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .sliderWrap {
+    max-width: 1120px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .sliderWrap {
+    max-width: 1400px;
+  }
+}
 
 .sliderTeamItem {
   width: 210px;
   padding: 8px;
   background-color: rgba(34, 66, 115, 0.77);
+}
+@media screen and (min-width: 768px) {
+  .sliderTeamItem {
+    width: 175px;
+    height: 280px;
+  }
+}
+@media screen and (min-width: 840px) {
+  .sliderTeamItem {
+    height: 300px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .sliderTeamItem {
+    padding: 10px;
+    width: 224px;
+    height: 360px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .sliderTeamItem {
+    padding: 12px;
+    width: 275px;
+    height: 420px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .sliderTeamItem {
+    padding: 18px;
+    width: 300px;
+    height: 500px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .sliderTeamItem:not(:last-child) {
+    margin-right: 8px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .sliderTeamItem:not(:last-child) {
+    margin-right: 16px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .sliderTeamItem:not(:last-child) {
+    margin-right: 24px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .sliderTeamItem:not(:last-child) {
+    margin-right: 32px;
+  }
 }
 
 .sliderTeamItemImage {
@@ -1331,8 +1466,8 @@ input[type=checkbox] {
   margin-bottom: 10px;
   font-family: "Abrac";
   font-weight: 400;
-  font-size: calc( 0.0078125 * 100vw + 7.5px );
-  line-height: calc( 0.009375 * 100vw + 9px );
+  font-size: calc( 0.0078125 * 100vw + 5.5px );
+  line-height: calc( 0.0015625 * 100vw + 9.5px );
   text-align: center;
   color: #ffffff;
 }
@@ -1340,8 +1475,8 @@ input[type=checkbox] {
 .sliderTeamItemText {
   font-family: "HalveticaNeue";
   font-weight: 300;
-  font-size: calc( 0.0078125 * 100vw + 7.5px );
-  line-height: calc( 0.009375 * 100vw + 9px );
+  font-size: calc( 0.0078125 * 100vw + 5.5px );
+  line-height: calc( 0.0078125 * 100vw + 7.5px );
   text-align: center;
   color: #ffffff;
 }
